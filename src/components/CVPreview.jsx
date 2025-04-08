@@ -23,6 +23,7 @@ const CVPreview = ({ generalInfo, education, experience }) => {
         <h3>Practical Experience</h3>
         <p><strong>Company:</strong> {experience.company || "N/A"}</p>
         <p><strong>Position:</strong> {experience.position || "N/A"}</p>
+        <p><strong>Responsibilities:</strong> {experience.responsibilitites || "N/A"}</p>
         <p><strong>Start Date:</strong> {experience.startDate || "N/A"}</p>
         <p><strong>End Date:</strong> {experience.endDate || "N/A"}</p>
       </section>
