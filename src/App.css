@@ -1,9 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 #root {
   max-width: 1280px;
+  width: 60%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers everything horizontally */
+  justify-content: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 30px;
+}
+
 
 .logo {
   height: 6em;
@@ -40,3 +75,20 @@
 .read-the-docs {
   color: #888;
 }
+
+@media print {
+  button {
+    display: none;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  .info-section {
+    box-shadow: none;
+    border: none;
+  }
+}
+

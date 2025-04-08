@@ -1,0 +1,51 @@
+.cv-preview {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+  }
+  
+  .cv-preview h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  .cv-preview section {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cv-preview h3 {
+    color: #007bff;
+    margin-bottom: 8px;
+  }
+  
+  .cv-preview p {
+    margin: 5px 0;
+  }
+  
+  .cv-preview strong {
+    color: #333;
+  }
+  
+  .cv-preview button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .cv-preview button:hover {
+    background-color: #cc0000;
+  }
+  
